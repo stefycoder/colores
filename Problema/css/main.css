@@ -1,0 +1,244 @@
+.navbar {
+  background: #27AD60; }
+  .navbar .nav {
+    margin-top: 15px; }
+
+.letter, #banner h1, #banner p, .inicio h2, #about h2, #whatdo h2, #our h2, #best h2, #clients h2, #get h2, #footer h2, #about .progreso, #our .col-md-3 p {
+  color: white;
+  font-weight: 400;
+  text-align: center; }
+
+.none, #palette .paletas .col-md-2 {
+  padding: 0;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px; }
+
+hr {
+  width: 250px;
+  border: 1px solid #433D43;
+  margin-bottom: 8%; }
+
+#banner {
+  background: url(../img/carousel-bg.jpg) no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 100px; }
+  #banner h1 {
+    font-size: 5em; }
+  #banner p {
+    font-size: 2.1em; }
+
+#palette h2 {
+  font-size: 5em; }
+#palette .paletas .caja1 {
+  background-color: #69D2E7; }
+#palette .paletas .caja2 {
+  background-color: #E8B71A; }
+#palette .paletas .caja3 {
+  background-color: #F7EAC8; }
+#palette .paletas .caja4 {
+  background-color: #F38630; }
+#palette .paletas .caja5 {
+  background-color: #FA6900; }
+#palette .one .caja6 {
+  background-color: #E94C6F; }
+#palette .one .caja7 {
+  background-color: #542733;
+  color: white; }
+#palette .one .caja8 {
+  background-color: #5A6A62; }
+#palette .one .caja9 {
+  background-color: #C6D5CD; }
+#palette .one .caja10 {
+  background-color: #FDF200; }
+#palette .two .caja1 {
+  background-color: #DB3340; }
+#palette .two .caja2 {
+  background-color: #E8B71A; }
+#palette .two .caja3 {
+  background-color: #F7EAC8; }
+#palette .two .caja4 {
+  background-color: #1FDA9A; }
+#palette .two .caja5 {
+  background-color: #28ABE3; }
+#palette .tree .caja1 {
+  background-color: #588C73; }
+#palette .tree .caja2 {
+  background-color: #F2E394; }
+#palette .tree .caja3 {
+  background-color: #F2AE72; }
+#palette .tree .caja4 {
+  background-color: #D96459; }
+#palette .tree .caja5 {
+  background-color: #8C4646; }
+#palette .for .caja1 {
+  background-color: #D0C91F; }
+#palette .for .caja2 {
+  background-color: #85C4B9; }
+#palette .for .caja3 {
+  background-color: #008BBA; }
+#palette .for .caja4 {
+  background-color: #DF514C; }
+#palette .for .caja5 {
+  background-color: #DC403B; }
+
+.inicio, #about, #whatdo, #our, #best, #clients, #get, #footer {
+  color: white; }
+  .inicio h2, #about h2, #whatdo h2, #our h2, #best h2, #clients h2, #get h2, #footer h2 {
+    font-size: 5em; }
+
+#about {
+  background-color: #2C3E50; }
+  #about hr {
+    border-color: white; }
+  #about .progreso {
+    font-size: 1.1em;
+    padding-right: 126px;
+    margin: 40px 0; }
+    #about .progreso .text {
+      margin-bottom: 80px; }
+    #about .progreso .progress {
+      border-radius: 0px;
+      height: 10px; }
+
+#whatdo {
+  background-color: #27AD60; }
+  #whatdo hr {
+    border-color: white;
+    margin-bottom: 2%; }
+  #whatdo .col-md-4 {
+    padding: 0 6%;
+    margin-top: 10%; }
+    #whatdo .col-md-4 .bg-icono {
+      display: flex;
+      justify-content: center; }
+      #whatdo .col-md-4 .bg-icono img {
+        background-image: url("../img/icon-bg.png");
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        background-color: #2C3E50;
+        display: block; }
+        #whatdo .col-md-4 .bg-icono img:hover {
+          transform: rotate(-120deg); }
+        #whatdo .col-md-4 .bg-icono img:hover {
+          background-color: #A96931; }
+    #whatdo .col-md-4 p {
+      color: #616D79; }
+    #whatdo .col-md-4:hover {
+      background-color: #2A7257;
+      padding-top: 4%; }
+  #whatdo .btn-primary {
+    margin-top: 10%;
+    position: relative;
+    left: 500px; }
+
+#our {
+  padding-top: 10%;
+  background-color: #27AD60;
+  padding-bottom: 10%; }
+  #our hr {
+    border-color: white;
+    margin-bottom: 2%; }
+  #our .col-md-3 {
+    padding: 0 40px; }
+    #our .col-md-3 h6 {
+      color: #616D79;
+      margin-bottom: 10%; }
+    #our .col-md-3 p {
+      font-size: 1em; }
+    #our .col-md-3 a {
+      padding-left: 3%;
+      color: #C1C1C1; }
+
+#best {
+  background-color: #2C3E50; }
+  #best hr {
+    border-color: white; }
+  #best .starter {
+    margin: 40% 0;
+    border: 1px solid #27AD60; }
+    #best .starter h5 {
+      color: #C1C1C1;
+      margin: 0;
+      padding: 4% 0; }
+    #best .starter h1 {
+      background-color: #27AD60;
+      margin: 0;
+      padding: 2% 0; }
+      #best .starter h1 span {
+        font-size: 0.4em;
+        font-weight: 100; }
+    #best .starter h6 {
+      font-size: 0.7em;
+      background-color: #27AD60;
+      display: block;
+      margin: 0;
+      padding-bottom: 2%; }
+    #best .starter p:nth-child(5), #best .starter p:nth-child(7), #best .starter p:nth-child(9) {
+      background: white;
+      color: black;
+      padding: 2% 0; }
+    #best .starter .hov:hover {
+      background-color: #8F5F38; }
+    #best .starter:hover {
+      border: 2px solid #8F5F38;
+      position: relative;
+      top: -50px; }
+
+#clients {
+  background-color: #2C3E50;
+  padding-bottom: 20%; }
+  #clients hr {
+    border-color: white;
+    margin-bottom: 2%; }
+  #clients .parrafo {
+    padding: 2% 30%;
+    font-style: italic; }
+    #clients .parrafo p {
+      color: #C1C1C1; }
+    #clients .parrafo h5 {
+      color: #E67D21; }
+
+#get {
+  background-color: #2C3E50;
+  padding-bottom: 8%; }
+  #get hr {
+    border-color: white;
+    margin-bottom: 2%; }
+  #get form {
+    padding: 2% 20%; }
+    #get form input {
+      width: 100%;
+      margin-bottom: 2%;
+      padding: 1.5% 2%; }
+    #get form textarea {
+      width: 100%;
+      height: 100px;
+      padding-left: 2%; }
+
+#icons {
+  background: url(../img/img-divider-img.jpg) repeat-y;
+  background-size: cover;
+  width: 100%;
+  padding: 13%; }
+  #icons a span {
+    padding: 2%;
+    font-size: 6em; }
+
+#footer {
+  background-color: #27AD60; }
+  #footer hr {
+    border-color: white;
+    width: 60px; }
+  #footer a span {
+    padding-right: 2%; }
+  #footer .uno p {
+    padding-left: 25%; }
+  #footer .flex-between p {
+    color: #433D43; }
+    #footer .flex-between p span {
+      color: white; }
+
+/*# sourceMappingURL=main.css.map */
